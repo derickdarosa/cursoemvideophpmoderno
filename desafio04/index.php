@@ -5,15 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conversor de Moedas v1.0</title>
-    <link rel="stylesheet" href="styles.css?v=2">
+    <link rel="stylesheet" href="styles.css?v=<?= time()?>">
 </head>
 
 <body>
     <main>
-        <h1>Conversor de Moedas v1.0</h1>
+        <h1>Conversor de Moedas v2.0</h1>
             <form action="convert.php" method="post">
                 <label for="dinheiro">Quantos R$ você tem na carteira?</label>
-                <input type="number" name="dinheiro" id="dinheiro">
+                <input type="number" name="dinheiro" id="dinheiro" step="0.01">
 
                 <input type="submit" value="Converter">
             </form>

@@ -17,9 +17,9 @@
             //     }
             // };
             // $numeroAleatorio = gerarOutro();
-
+            $numeroAleatorio = "";
             function gerarNumero(): int {
-                return random_int(0, 100);
+                return mt_rand(0, 100);
             }
 
             if (isset($_GET['gerar'])){
