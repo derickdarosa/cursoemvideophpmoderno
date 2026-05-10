@@ -71,7 +71,7 @@
         </form>
     </main>
 
-    //Bloco de Exibição de Erros (depende de $erros)
+    <!-- //Bloco de Exibição de Erros (depende de $erros) -->
     <?php if (!empty($erros)): ?>
         <section>
             <?php foreach ($erros as $erro): ?>
@@ -80,7 +80,7 @@
         </section>
     <?php endif; ?>
 
-    //Bloco de Exibição de Resultados (dependências de $resto, $resultadoDivisao, $dividendo e $divisor, principalmente de $resto !== null)
+    <!-- //Bloco de Exibição de Resultados (dependências de $resto, $resultadoDivisao, $dividendo e $divisor, principalmente de $resto !== null) -->
     <?php if ($resto !== null): ?>
         <section>
             <h2>Estrutura da Divisão</h2>
